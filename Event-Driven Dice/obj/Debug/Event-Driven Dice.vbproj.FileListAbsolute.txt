@@ -1,0 +1,26 @@
+G:\My Documents\Visual Studio 2017\Projects\Event-Driven Dice\Event-Driven Dice\bin\Debug\Event-Driven Dice.exe.config
+G:\My Documents\Visual Studio 2017\Projects\Event-Driven Dice\Event-Driven Dice\bin\Debug\Event-Driven Dice.exe
+G:\My Documents\Visual Studio 2017\Projects\Event-Driven Dice\Event-Driven Dice\bin\Debug\Event-Driven Dice.pdb
+G:\My Documents\Visual Studio 2017\Projects\Event-Driven Dice\Event-Driven Dice\bin\Debug\Event-Driven Dice.xml
+G:\My Documents\Visual Studio 2017\Projects\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event-Driven Dice.vbprojAssemblyReference.cache
+G:\My Documents\Visual Studio 2017\Projects\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event_Driven_Dice.frmDiceGame.resources
+G:\My Documents\Visual Studio 2017\Projects\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event_Driven_Dice.Resources.resources
+G:\My Documents\Visual Studio 2017\Projects\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event-Driven Dice.vbproj.GenerateResource.cache
+G:\My Documents\Visual Studio 2017\Projects\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event-Driven Dice.vbproj.CoreCompileInputs.cache
+G:\My Documents\Visual Studio 2017\Projects\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event-Driven Dice.exe
+G:\My Documents\Visual Studio 2017\Projects\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event-Driven Dice.xml
+G:\My Documents\Visual Studio 2017\Projects\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event-Driven Dice.pdb
+G:\My Documents\Visual Studio 2017\Projects\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event_Driven_Dice.frmSplash.resources
+C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\bin\Debug\Event-Driven Dice.exe.config
+C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\bin\Debug\Event-Driven Dice.exe
+C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\bin\Debug\Event-Driven Dice.pdb
+C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\bin\Debug\Event-Driven Dice.xml
+C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event-Driven Dice.vbprojAssemblyReference.cache
+C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event_Driven_Dice.frmDiceGame.resources
+C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event_Driven_Dice.frmSplash.resources
+C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event_Driven_Dice.Resources.resources
+C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event-Driven Dice.vbproj.GenerateResource.cache
+C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event-Driven Dice.vbproj.CoreCompileInputs.cache
+C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event-Driven Dice.exe
+C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event-Driven Dice.xml
+C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event-Driven Dice.pdb
