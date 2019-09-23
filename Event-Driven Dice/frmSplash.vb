@@ -9,6 +9,5 @@
         Me.Hide()
         tmrSplash.Stop()
 
-
     End Sub
 End Class

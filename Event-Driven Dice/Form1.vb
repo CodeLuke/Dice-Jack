@@ -1,4 +1,6 @@
-﻿Public Class frmDiceGame
+﻿Imports System.ComponentModel
+
+Public Class frmDiceGame
     Dim Die1, Die2 As Integer
     Dim DicePoints As Integer = 0
     Dim DealerPoints As Integer = 0
@@ -409,6 +411,10 @@
                 pbxDie.Image = My.Resources.reddieface6
             End If
         End If
+    End Sub
+
+    Private Sub frmDiceGame_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
+        frmSplash.Close()
     End Sub
 End Class
 
