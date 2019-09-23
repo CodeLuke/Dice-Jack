@@ -23,6 +23,7 @@ Partial Class frmSplash
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmSplash))
         Me.lblTitle = New System.Windows.Forms.Label()
         Me.pbxLogo = New System.Windows.Forms.PictureBox()
         Me.lblCopyright = New System.Windows.Forms.Label()
@@ -33,20 +34,20 @@ Partial Class frmSplash
         'lblTitle
         '
         Me.lblTitle.AutoSize = True
-        Me.lblTitle.Font = New System.Drawing.Font("Yu Gothic UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTitle.ForeColor = System.Drawing.Color.Black
-        Me.lblTitle.Location = New System.Drawing.Point(127, 58)
+        Me.lblTitle.Font = New System.Drawing.Font("Rockwell", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTitle.ForeColor = System.Drawing.Color.White
+        Me.lblTitle.Location = New System.Drawing.Point(101, 39)
         Me.lblTitle.Name = "lblTitle"
-        Me.lblTitle.Size = New System.Drawing.Size(148, 37)
+        Me.lblTitle.Size = New System.Drawing.Size(188, 43)
         Me.lblTitle.TabIndex = 0
-        Me.lblTitle.Text = "Dice Game"
+        Me.lblTitle.Text = "Dice-Jack"
         '
         'pbxLogo
         '
-        Me.pbxLogo.Image = Global.Event_Driven_Dice.My.Resources.Resources.dielogo
-        Me.pbxLogo.Location = New System.Drawing.Point(89, 118)
+        Me.pbxLogo.Image = Global.Event_Driven_Dice.My.Resources.Resources.logo
+        Me.pbxLogo.Location = New System.Drawing.Point(89, 94)
         Me.pbxLogo.Name = "pbxLogo"
-        Me.pbxLogo.Size = New System.Drawing.Size(212, 127)
+        Me.pbxLogo.Size = New System.Drawing.Size(212, 187)
         Me.pbxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pbxLogo.TabIndex = 1
         Me.pbxLogo.TabStop = False
@@ -54,12 +55,13 @@ Partial Class frmSplash
         'lblCopyright
         '
         Me.lblCopyright.AutoSize = True
-        Me.lblCopyright.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCopyright.Location = New System.Drawing.Point(165, 284)
+        Me.lblCopyright.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCopyright.ForeColor = System.Drawing.Color.White
+        Me.lblCopyright.Location = New System.Drawing.Point(118, 324)
         Me.lblCopyright.Name = "lblCopyright"
-        Me.lblCopyright.Size = New System.Drawing.Size(57, 21)
+        Me.lblCopyright.Size = New System.Drawing.Size(156, 19)
         Me.lblCopyright.TabIndex = 2
-        Me.lblCopyright.Text = "©2019"
+        Me.lblCopyright.Text = "©2019 Luke Briggs"
         '
         'tmrSplash
         '
@@ -68,11 +70,13 @@ Partial Class frmSplash
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(87, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(401, 386)
         Me.Controls.Add(Me.lblCopyright)
         Me.Controls.Add(Me.pbxLogo)
         Me.Controls.Add(Me.lblTitle)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmSplash"
         Me.Text = "frmSplash"
         CType(Me.pbxLogo, System.ComponentModel.ISupportInitialize).EndInit()
