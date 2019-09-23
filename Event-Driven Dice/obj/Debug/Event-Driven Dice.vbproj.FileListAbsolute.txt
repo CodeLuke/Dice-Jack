@@ -24,3 +24,15 @@ C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event-Driv
 C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event-Driven Dice.exe
 C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event-Driven Dice.xml
 C:\Users\Luke\Documents\Event-Driven Dice\Event-Driven Dice\obj\Debug\Event-Driven Dice.pdb
+C:\Users\Luke\Source\Repos\CodeLuke\Dice-Game\Event-Driven Dice\bin\Debug\Event-Driven Dice.exe.config
+C:\Users\Luke\Source\Repos\CodeLuke\Dice-Game\Event-Driven Dice\bin\Debug\Event-Driven Dice.exe
+C:\Users\Luke\Source\Repos\CodeLuke\Dice-Game\Event-Driven Dice\bin\Debug\Event-Driven Dice.pdb
+C:\Users\Luke\Source\Repos\CodeLuke\Dice-Game\Event-Driven Dice\bin\Debug\Event-Driven Dice.xml
+C:\Users\Luke\Source\Repos\CodeLuke\Dice-Game\Event-Driven Dice\obj\Debug\Event-Driven Dice.vbprojAssemblyReference.cache
+C:\Users\Luke\Source\Repos\CodeLuke\Dice-Game\Event-Driven Dice\obj\Debug\Event_Driven_Dice.frmDiceGame.resources
+C:\Users\Luke\Source\Repos\CodeLuke\Dice-Game\Event-Driven Dice\obj\Debug\Event_Driven_Dice.frmSplash.resources
+C:\Users\Luke\Source\Repos\CodeLuke\Dice-Game\Event-Driven Dice\obj\Debug\Event_Driven_Dice.Resources.resources
+C:\Users\Luke\Source\Repos\CodeLuke\Dice-Game\Event-Driven Dice\obj\Debug\Event-Driven Dice.vbproj.GenerateResource.cache
+C:\Users\Luke\Source\Repos\CodeLuke\Dice-Game\Event-Driven Dice\obj\Debug\Event-Driven Dice.exe
+C:\Users\Luke\Source\Repos\CodeLuke\Dice-Game\Event-Driven Dice\obj\Debug\Event-Driven Dice.xml
+C:\Users\Luke\Source\Repos\CodeLuke\Dice-Game\Event-Driven Dice\obj\Debug\Event-Driven Dice.pdb

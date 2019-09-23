@@ -49,10 +49,10 @@ Partial Class frmDiceGame
         Me.btnUseBothDice = New System.Windows.Forms.Button()
         Me.btnUseDie2 = New System.Windows.Forms.Button()
         Me.btnUseDie1 = New System.Windows.Forms.Button()
-        Me.tmrDealer = New System.Windows.Forms.Timer(Me.components)
-        Me.tmrGameControl = New System.Windows.Forms.Timer(Me.components)
         Me.lblScores = New System.Windows.Forms.Label()
         Me.lstScore = New System.Windows.Forms.ListBox()
+        Me.tmrDealer = New System.Windows.Forms.Timer(Me.components)
+        Me.tmrGameControl = New System.Windows.Forms.Timer(Me.components)
         Me.pnlHeader.SuspendLayout()
         CType(Me.pbxLogoReverse, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbxLogo, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -112,7 +112,7 @@ Partial Class frmDiceGame
         Me.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnReset.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnReset.ForeColor = System.Drawing.Color.White
-        Me.btnReset.Location = New System.Drawing.Point(18, 74)
+        Me.btnReset.Location = New System.Drawing.Point(28, 71)
         Me.btnReset.Name = "btnReset"
         Me.btnReset.Size = New System.Drawing.Size(181, 39)
         Me.btnReset.TabIndex = 2
@@ -124,7 +124,7 @@ Partial Class frmDiceGame
         Me.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnStart.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnStart.ForeColor = System.Drawing.Color.White
-        Me.btnStart.Location = New System.Drawing.Point(18, 20)
+        Me.btnStart.Location = New System.Drawing.Point(28, 16)
         Me.btnStart.Margin = New System.Windows.Forms.Padding(0)
         Me.btnStart.Name = "btnStart"
         Me.btnStart.Size = New System.Drawing.Size(181, 39)
@@ -226,8 +226,8 @@ Partial Class frmDiceGame
         'pnlRules
         '
         Me.pnlRules.BackColor = System.Drawing.Color.Transparent
-        Me.pnlRules.Controls.Add(Me.lblRules)
         Me.pnlRules.Controls.Add(Me.lblRulesTitle)
+        Me.pnlRules.Controls.Add(Me.lblRules)
         Me.pnlRules.Location = New System.Drawing.Point(82, 186)
         Me.pnlRules.Margin = New System.Windows.Forms.Padding(2)
         Me.pnlRules.Name = "pnlRules"
@@ -237,24 +237,24 @@ Partial Class frmDiceGame
         'lblRules
         '
         Me.lblRules.AutoSize = True
-        Me.lblRules.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRules.Font = New System.Drawing.Font("Rockwell", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRules.ForeColor = System.Drawing.Color.White
-        Me.lblRules.Location = New System.Drawing.Point(15, 55)
+        Me.lblRules.Location = New System.Drawing.Point(22, 45)
         Me.lblRules.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblRules.Name = "lblRules"
-        Me.lblRules.Size = New System.Drawing.Size(237, 323)
+        Me.lblRules.Size = New System.Drawing.Size(213, 340)
         Me.lblRules.TabIndex = 1
         Me.lblRules.Text = resources.GetString("lblRules.Text")
         '
         'lblRulesTitle
         '
         Me.lblRulesTitle.AutoSize = True
-        Me.lblRulesTitle.Font = New System.Drawing.Font("Rockwell", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRulesTitle.Font = New System.Drawing.Font("Rockwell", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRulesTitle.ForeColor = System.Drawing.Color.White
         Me.lblRulesTitle.Location = New System.Drawing.Point(90, 13)
         Me.lblRulesTitle.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblRulesTitle.Name = "lblRulesTitle"
-        Me.lblRulesTitle.Size = New System.Drawing.Size(89, 29)
+        Me.lblRulesTitle.Size = New System.Drawing.Size(77, 25)
         Me.lblRulesTitle.TabIndex = 0
         Me.lblRulesTitle.Text = "Rules:"
         '
@@ -269,9 +269,9 @@ Partial Class frmDiceGame
         Me.pnlButtons.Controls.Add(Me.lstScore)
         Me.pnlButtons.Controls.Add(Me.btnStart)
         Me.pnlButtons.Controls.Add(Me.btnReset)
-        Me.pnlButtons.Location = New System.Drawing.Point(903, 118)
+        Me.pnlButtons.Location = New System.Drawing.Point(891, 118)
         Me.pnlButtons.Name = "pnlButtons"
-        Me.pnlButtons.Size = New System.Drawing.Size(214, 512)
+        Me.pnlButtons.Size = New System.Drawing.Size(240, 512)
         Me.pnlButtons.TabIndex = 16
         '
         'btnHit
@@ -280,7 +280,7 @@ Partial Class frmDiceGame
         Me.btnHit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnHit.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnHit.ForeColor = System.Drawing.Color.White
-        Me.btnHit.Location = New System.Drawing.Point(122, 464)
+        Me.btnHit.Location = New System.Drawing.Point(132, 464)
         Me.btnHit.Margin = New System.Windows.Forms.Padding(0)
         Me.btnHit.Name = "btnHit"
         Me.btnHit.Size = New System.Drawing.Size(77, 39)
@@ -294,7 +294,7 @@ Partial Class frmDiceGame
         Me.btnStand.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnStand.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnStand.ForeColor = System.Drawing.Color.White
-        Me.btnStand.Location = New System.Drawing.Point(18, 464)
+        Me.btnStand.Location = New System.Drawing.Point(28, 464)
         Me.btnStand.Margin = New System.Windows.Forms.Padding(0)
         Me.btnStand.Name = "btnStand"
         Me.btnStand.Size = New System.Drawing.Size(76, 39)
@@ -308,7 +308,7 @@ Partial Class frmDiceGame
         Me.btnUseBothDice.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnUseBothDice.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnUseBothDice.ForeColor = System.Drawing.Color.White
-        Me.btnUseBothDice.Location = New System.Drawing.Point(18, 407)
+        Me.btnUseBothDice.Location = New System.Drawing.Point(28, 407)
         Me.btnUseBothDice.Margin = New System.Windows.Forms.Padding(0)
         Me.btnUseBothDice.Name = "btnUseBothDice"
         Me.btnUseBothDice.Size = New System.Drawing.Size(181, 39)
@@ -322,7 +322,7 @@ Partial Class frmDiceGame
         Me.btnUseDie2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnUseDie2.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnUseDie2.ForeColor = System.Drawing.Color.White
-        Me.btnUseDie2.Location = New System.Drawing.Point(18, 352)
+        Me.btnUseDie2.Location = New System.Drawing.Point(28, 352)
         Me.btnUseDie2.Margin = New System.Windows.Forms.Padding(0)
         Me.btnUseDie2.Name = "btnUseDie2"
         Me.btnUseDie2.Size = New System.Drawing.Size(181, 39)
@@ -336,7 +336,7 @@ Partial Class frmDiceGame
         Me.btnUseDie1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnUseDie1.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnUseDie1.ForeColor = System.Drawing.Color.White
-        Me.btnUseDie1.Location = New System.Drawing.Point(18, 295)
+        Me.btnUseDie1.Location = New System.Drawing.Point(28, 295)
         Me.btnUseDie1.Margin = New System.Windows.Forms.Padding(0)
         Me.btnUseDie1.Name = "btnUseDie1"
         Me.btnUseDie1.Size = New System.Drawing.Size(181, 39)
@@ -344,19 +344,12 @@ Partial Class frmDiceGame
         Me.btnUseDie1.Text = "Add First Die"
         Me.btnUseDie1.UseVisualStyleBackColor = True
         '
-        'tmrDealer
-        '
-        '
-        'tmrGameControl
-        '
-        Me.tmrGameControl.Enabled = True
-        '
         'lblScores
         '
         Me.lblScores.AutoSize = True
         Me.lblScores.Font = New System.Drawing.Font("Rockwell", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblScores.ForeColor = System.Drawing.Color.White
-        Me.lblScores.Location = New System.Drawing.Point(69, 123)
+        Me.lblScores.Location = New System.Drawing.Point(79, 118)
         Me.lblScores.Name = "lblScores"
         Me.lblScores.Size = New System.Drawing.Size(79, 25)
         Me.lblScores.TabIndex = 10
@@ -364,11 +357,26 @@ Partial Class frmDiceGame
         '
         'lstScore
         '
+        Me.lstScore.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.lstScore.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lstScore.ColumnWidth = 100
+        Me.lstScore.Font = New System.Drawing.Font("Segoe Script", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lstScore.ForeColor = System.Drawing.Color.White
         Me.lstScore.FormattingEnabled = True
-        Me.lstScore.Location = New System.Drawing.Point(57, 161)
+        Me.lstScore.ItemHeight = 20
+        Me.lstScore.Location = New System.Drawing.Point(28, 150)
+        Me.lstScore.MultiColumn = True
         Me.lstScore.Name = "lstScore"
-        Me.lstScore.Size = New System.Drawing.Size(102, 121)
+        Me.lstScore.SelectionMode = System.Windows.Forms.SelectionMode.None
+        Me.lstScore.Size = New System.Drawing.Size(181, 122)
         Me.lstScore.TabIndex = 6
+        '
+        'tmrDealer
+        '
+        '
+        'tmrGameControl
+        '
+        Me.tmrGameControl.Enabled = True
         '
         'frmDiceGame
         '
