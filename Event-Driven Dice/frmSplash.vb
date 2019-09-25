@@ -7,7 +7,6 @@
     Private Sub tmrSplash_Tick(sender As Object, e As EventArgs) Handles tmrSplash.Tick
         frmDiceGame.Show()
         Me.Hide()
-        tmrSplash.Stop()
 
     End Sub
 End Class
