@@ -1,5 +1,7 @@
 # Dice-Jack
-An event-driven dice game made in VB.NET You can find out more about this at [my blog](https://codelab101.wordpress.com/2019/09/24/inspection-dissection-dice-jack/)
+![dice jack](dicejack.gif)
+
+An event-driven dice game made in VB.NET You can find out more about this at [my blog](https://www.lukebriggs.dev/projects)
 ## Rules
 * The goal is to get as close to 21 points without going over
 * There is a Player and a Dealer
